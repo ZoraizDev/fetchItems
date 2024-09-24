@@ -12,7 +12,7 @@ To clone and run the project, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/FetchItemsApp.git
+   git clone https://github.com/ZoraizDev/fetchItems.git
 Open the project in Android Studio.
 
 Sync the Gradle files to ensure all dependencies are downloaded.
@@ -23,28 +23,23 @@ Run the app on an emulator or physical device.
 The project is organized as follows:
 
 
-FetchItemsApp/
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/tech/fetchitemsapp/
-│   │   │   │   ├── data/
-│   │   │   │   │   ├── model/            # Contains data models used in the app
-│   │   │   │   │   └── repository/       # Contains repositories for data handling
-│   │   │   │   ├── ui/
-│   │   │   │   │   ├── adapter/          # Contains adapters for RecyclerViews
-│   │   │   │   │   └── viewmodel/        # Contains ViewModels for UI logic
-│   │   │   │   ├── domain/                # Contains domain layer classes
-│   │   │   │   └── main/                  # Contains the main activity and related classes
-│   │   │   └── res/                       # Contains resources like layouts, drawables, etc.
-│   │   └── AndroidManifest.xml             # Android manifest file
-│   ├── build.gradle                        # Module-level build file
-│   └── proguard-rules.pro                 # Proguard configuration file
-├── build.gradle                            # Project-level build file
-└── settings.gradle                         # Settings file for Gradle
 
+### Directory Details
 
-
+- **app/src/main/java/com/tech/fetchitemsapp/**: Contains all Java/Kotlin code for the application.
+  - **data/**: This package holds the data models and repositories, which handle data operations and data management.
+    - **model/**: Contains the data models used throughout the app.
+    - **repository/**: Contains repository classes that manage data operations and provide a clean API for data access.
+  - **ui/**: This package contains all UI-related components.
+    - **adapter/**: Contains adapters for RecyclerViews, managing how data is displayed in lists.
+    - **viewmodel/**: Contains ViewModels that handle UI logic and data preparation for the views.
+  - **domain/**: This layer holds domain classes, representing the business logic and rules of the application.
+  - **main/**: Contains the main activity and other related classes.
+- **res/**: Contains various resources such as layouts, drawables, and other assets used in the app.
+- **AndroidManifest.xml**: The manifest file that provides essential information about the app to the Android build system, the Android operating system, and Google Play.
+- **build.gradle**: These files define the build configuration at the module and project levels.
+- **proguard-rules.pro**: Configuration for ProGuard, which optimizes and obfuscates the code.
+- **settings.gradle**: Defines the modules included in the project.
 
 
 ## Directory Breakdown
