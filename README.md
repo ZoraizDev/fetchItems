@@ -29,19 +29,20 @@ FetchItemsApp/
 │   │   ├── main/
 │   │   │   ├── java/com/tech/fetchitemsapp/
 │   │   │   │   ├── data/
-│   │   │   │   │   ├── model/
-│   │   │   │   │   └── repository/
+│   │   │   │   │   ├── model/            # Contains data models used in the app
+│   │   │   │   │   └── repository/       # Contains repositories for data handling
 │   │   │   │   ├── ui/
-│   │   │   │   │   ├── adapter/
-│   │   │   │   │   └── viewmodel/
-│   │   │   │   ├── domain/
-│   │   │   │   └── main/
-│   │   │   └── res/
-│   │   └── AndroidManifest.xml
-│   ├── build.gradle
-│   └── proguard-rules.pro
-├── build.gradle
-└── settings.gradle
+│   │   │   │   │   ├── adapter/          # Contains adapters for RecyclerViews
+│   │   │   │   │   └── viewmodel/        # Contains ViewModels for UI logic
+│   │   │   │   ├── domain/                # Contains domain layer classes
+│   │   │   │   └── main/                  # Contains the main activity and related classes
+│   │   │   └── res/                       # Contains resources like layouts, drawables, etc.
+│   │   └── AndroidManifest.xml             # Android manifest file
+│   ├── build.gradle                        # Module-level build file
+│   └── proguard-rules.pro                 # Proguard configuration file
+├── build.gradle                            # Project-level build file
+└── settings.gradle                         # Settings file for Gradle
+
 
 
 
