@@ -26,7 +26,7 @@ The project is organized as follows:
 
 ### Directory Details
 
-- **app/src/main/java/com/tech/fetchitemsapp/**: Contains all Java/Kotlin code for the application.
+- **fetchitemsapp/**: Contains all Java/Kotlin code for the application.
   - **data/**: This package holds the data models and repositories, which handle data operations and data management.
     - **model/**: Contains the data models used throughout the app.
     - **repository/**: Contains repository classes that manage data operations and provide a clean API for data access.
